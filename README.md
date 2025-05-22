@@ -7,11 +7,12 @@ This project demonstrates how to fine-tune Microsoft's Phi-2 large language mode
 ## 📁 Repository Structure
 
 .
-├── output_phi2_lora/ # Directory containing final model and checkpoint files
-├── split_output/ # Directory with tokenized train/validation datasets
-├── split.py # Script to split raw dataset into train/validation sets
-├── train.py # Main training script using Hugging Face + PEFT
-└── README.md # Project documentation
+├── output_phi2_lora/     # Directory containing final model and checkpoint files
+├── split_output/         # Directory with train/validation JSONL datasets
+├── split.py              # Script to split the raw dataset into train/validation sets
+├── train.py              # Main training script using Hugging Face + PEFT
+└── README.md             # Project documentation
+
 
 
 ---
