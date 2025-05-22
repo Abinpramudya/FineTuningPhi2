@@ -2,20 +2,14 @@
 
 This project demonstrates how to fine-tune Microsoft's Phi-2 large language model using LoRA (Low-Rank Adaptation) to generate structured outputs from natural language commands. The model is trained to follow instructions and output predefined JSON-based formats suitable for downstream robotic control or automation tasks.
 
----
-
 ## 📁 Repository Structure
-
-.
-├── output_phi2_lora/     # Directory containing final model and checkpoint files
-├── split_output/         # Directory with train/validation JSONL datasets
-├── split.py              # Script to split the raw dataset into train/validation sets
-├── train.py              # Main training script using Hugging Face + PEFT
-└── README.md             # Project documentation
-
-
-
----
+```
+output_phi2_lora/     # Directory containing final model and checkpoint files
+split_output/         # Directory with train/validation JSONL datasets
+split.py              # Script to split the raw dataset into train/validation sets
+train.py              # Main training script using Hugging Face + PEFT
+README.md             # Project documentation
+```
 
 ## Getting Started
 
