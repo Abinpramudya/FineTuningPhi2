@@ -21,6 +21,7 @@ This project demonstrates how to fine-tune Microsoft's Phi-2 large language mode
 ### 1. Install Requirements
 ```bash
 pip install -r requirements.txt
+```
 
 2. Prepare Dataset
 
